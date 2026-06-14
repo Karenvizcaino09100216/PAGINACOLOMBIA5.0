@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colombia 5.0 & Createx 2026 | Conectando Tecnología, Diseño e Industria Inteligente</title>
+<meta name="description" content="Proyecto académico bilingüe sobre Colombia 5.0 y Createx enfocado en innovación, diseño digital, experiencia de usuario, industria inteligente y transformación digital.">
+<meta property="og:title" content="Colombia 5.0 & Createx 2026 | Conectando Tecnología, Diseño e Industria Inteligente">
+<meta property="og:description" content="Bilingual academic project about Colombia 5.0 and Createx focused on innovation, digital design, user experience, smart industry and digital transformation.">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+
+.nav-toggle {
+  display: none;
+  flex-direction: column; gap: 5px;
+  background: none; border: none; cursor: pointer; padding: 4px;
+  z-index: 1001;
+}
+.nav-toggle span {
+  display: block; width: 22px; height: 2px;
+  background: var(--blue-700); border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+@media (max-width: 768px) {
+  .nav-toggle { display: flex; }
+  .nav-links {
+    display: none; flex-direction: column; gap: 0;
+    position: absolute; top: 62px; left: 0; right: 0;
+    background: rgba(255,255,255,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid var(--blue-100);
+    padding: 12px 20px 16px;
+  }
+  .nav-links.is-open { display: flex; }
+  .nav-links li { border-bottom: 1px solid var(--border-light); }
+  .nav-links a { display: block; padding: 10px 0; font-size: 0.85rem; opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+
+<nav>
+  <a href="#inicio" class="nav-brand">Colombia 5.0 · Createx</a>
+  <ul class="nav-links">
+    <li><a href="#conf1">Colombia 5.0</a></li>
+    <li><a href="#conf2">Createx</a></li>
+    <li><a href="#evidencia">Evidencia · Evidence</a></li>
+    <li><a href="#glosario">Glosario · Glossary</a></li>
+    <li><a href="#reflexion-final">Reflexión · Reflection</a></li>
+  </ul>
+</nav>
+
+
+
+<section class="hero" id="inicio">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-bg-glow"></div>
+  <span class="hero-shape hero-shape--one" aria-hidden="true"></span>
+  <span class="hero-shape hero-shape--two" aria-hidden="true"></span>
+  <span class="hero-shape hero-shape--three" aria-hidden="true"></span>
+
+  <div class="hero-content">
+    <span class="hero-number">ADSO · 2026 · SENA · COLOMBIA</span>
+    <h1>Colombia 5.0 &amp;<br><em>Createx 2026</em></h1>
+
+    <div class="hero-langs">
+      <p class="hero-lang-line lang-es"><span class="hero-flag">🇨🇴 ES</span>Conectando Tecnología, Diseño e Industria Inteligente</p>
+      <p class="hero-lang-line lang-en"><span class="hero-flag">🇺🇸 EN</span>Connecting Technology, Design and Smart Industry</p>
+      <p class="hero-lang-line lang-es" style="margin-top:28px;"><span class="hero-flag">🇨🇴 ES</span>Un recorrido académico por dos de los eventos más importantes en innovación, transformación digital, diseño, experiencia de usuario, industria inteligente y desarrollo tecnológico.</p>
+      <p class="hero-lang-line lang-en"><span class="hero-flag">🇺🇸 EN</span>An academic journey through two of the most important events in innovation, digital transformation, design, user experience, smart industry and technological development.</p>
+    </div>
+
+    <blockquote class="hero-quote">
+      <p>"Innovar es transformar ideas en oportunidades para construir el futuro."</p>
+      <p>"Innovation means transforming ideas into opportunities to build the future."</p>
+    </blockquote>
+
+    <div class="hero-tags">
+      <span class="tag">Colombia 5.0 — Figma &amp; UX/UI</span>
+      <span class="tag">Createx — Industria 4.0</span>
+      <span class="tag">Innovación · Innovation</span>
+      <span class="tag">Transformación Digital · Digital Transformation</span>
+    </div>
+
+    <div class="hero-buttons">
+      <a href="#conf1" class="btn btn-primary">🚀 Explorar Conferencias<span class="btn-en">Explore Conferences</span></a>
+      <a href="#evidencia" class="btn btn-secondary">📖 Ver Experiencia<span class="btn-en">View Experience</span></a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">↓ Scroll para explorar · Scroll to explore</div>
+</section>
+
+
+<div class="conf-index">
+  <a href="#conf1" class="conf-index-item">
+    <div class="conf-dot" style="background:var(--blue-600)"></div>
+    <span class="conf-num">01</span>
+    <h3>Colombia 5.0</h3>
+    <p>Figma &amp; UX/UI Design</p>
+  </a>
+  <a href="#conf2" class="conf-index-item">
+    <div class="conf-dot" style="background:var(--blue-700)"></div>
+    <span class="conf-num">02</span>
+    <h3>Createx</h3>
+    <p>Industria 4.0 · Industry 4.0</p>
+  </a>
+</div>
+
+
+<section id="conf1" class="conference-section">
+  <div class="conf-header">
+    <span class="conf-badge badge-1">Conferencia 01 · Conference 01</span>
+    <h2>Colombia 5.0 — Figma y Diseño Digital<br>Figma &amp; Digital Design</h2>
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p class="lead">Un evento que posiciona a Colombia como referente latinoamericano en transformación digital, con enfoque en diseño UX/UI, herramientas colaborativas y aplicaciones en la industria de los videojuegos.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p class="lead">An event that positions Colombia as a Latin American benchmark in digital transformation, focused on UX/UI design, collaborative tools and applications in the video game industry.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-wrapper">
+
+    <h4 class="subsection-title">Tema Principal · Main Topic</h4>
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p>La conferencia giró alrededor del diseño centrado en el usuario (UX/UI) y de Figma como la herramienta de referencia para construir interfaces digitales colaborativas. Andrés Pisso, Lead UX Designer de Travisión Games, mostró cómo estas prácticas se aplican tanto a productos web como al desarrollo de videojuegos.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p>The conference centered on user-centered design (UX/UI) and on Figma as the reference tool for building collaborative digital interfaces. Andrés Pisso, Lead UX Designer at Travisión Games, showed how these practices apply to both web products and video game development.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <h4 class="subsection-title">Resumen Detallado · Detailed Summary</h4>
+
+    <div class="resumen-stack">
+      <div class="content-card">
+        <span class="card-icon">🌐</span>
+        <div class="bilingual-block">
+          <div class="lang-col lang-es">
+            <span class="lang-tag">🇨🇴 Español</span>
+            <h4>¿Qué es Colombia 5.0?</h4>
+            <p>Colombia 5.0 es uno de los eventos de tecnología e innovación digital más importantes del país, un espacio donde profesionales, estudiantes, empresas y creadores impulsan la transformación digital nacional. Su nombre evoca la evolución de los paradigmas industriales —de la mecanización a la digitalización— hasta llegar a la era 5.0: hiperconectividad, inteligencia artificial y sistemas ciberfísicos.</p>
+          </div>
+          <div class="lang-col lang-en">
+            <span class="lang-tag">🇺🇸 English</span>
+            <h4>What is Colombia 5.0?</h4>
+            <p>Colombia 5.0 is one of the country's most important technology and digital innovation events, a space where professionals, students, companies and creators drive the national digital transformation. Its name evokes the evolution of industrial paradigms —from mechanization to digitalization— up to the 5.0 era of hyperconnectivity, artificial intelligence and cyber-physical systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <span class="card-icon">🎨</span>
+        <div class="bilingual-block">
+          <div class="lang-col lang-es">
+            <span class="lang-tag">🇨🇴 Español</span>
+            <h4>Figma: diseño colaborativo en la nube</h4>
+            <p>Figma es una herramienta de diseño vectorial basada en la nube para crear interfaces, prototipos y sistemas de diseño en tiempo real. Su función Auto Layout simula el comportamiento de Flexbox, permitiendo construir interfaces responsive desde el propio diseño, mientras que los componentes reutilizables garantizan consistencia visual: al actualizar el componente maestro, todas sus instancias se sincronizan automáticamente.</p>
+          </div>
+          <div class="lang-col lang-en">
+            <span class="lang-tag">🇺🇸 English</span>
+            <h4>Figma: Cloud-Based Collaborative Design</h4>
+            <p>Figma is a cloud-based vector design tool for creating interfaces, prototypes and design systems in real time. Its Auto Layout feature mirrors CSS Flexbox behavior, enabling responsive interfaces straight from the design stage, while reusable components guarantee visual consistency: updating the master component automatically syncs every instance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <span class="card-icon">🎮</span>
+        <div class="bilingual-block">
+          <div class="lang-col lang-es">
+            <span class="lang-tag">🇨🇴 Español</span>
+            <h4>Figma aplicado a videojuegos y al flujo de ADSO</h4>
+            <p>Andrés Pisso demostró cómo Figma se utiliza para diseñar HUDs, menús y sistemas de iconografía de videojuegos con el mismo rigor que cualquier interfaz digital, prototipando interacciones antes de implementarlas en motores como Unity o Unreal Engine. Para ADSO, esto se traduce en wireframes que validan requerimientos con el cliente y en un Dev Mode que entrega especificaciones de CSS listas para el FrontEnd.</p>
+          </div>
+          <div class="lang-col lang-en">
+            <span class="lang-tag">🇺🇸 English</span>
+            <h4>Figma Applied to Game Design and the ADSO Workflow</h4>
+            <p>Andrés Pisso demonstrated how Figma is used to design HUDs, menus and iconography systems for video games with the same rigor as any digital interface, prototyping interactions before implementing them in engines such as Unity or Unreal Engine. For ADSO, this translates into wireframes that validate requirements with the client and a Dev Mode that delivers CSS-ready specs for the FrontEnd team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <h4 class="subsection-title">Aprendizajes Obtenidos · Learning Outcomes</h4>
+
+    <div class="content-card">
+      <div class="bilingual-block">
+        <div class="lang-col lang-es">
+          <span class="lang-tag">🇨🇴 Español</span>
+          <ul>
+            <li>El diseño UX/UI es el núcleo de cualquier producto digital exitoso, no un paso decorativo final.</li>
+            <li>Auto Layout en Figma simula Flexbox y permite construir interfaces responsive desde el diseño.</li>
+            <li>Los componentes reutilizables garantizan consistencia visual y eficiencia en equipos de trabajo.</li>
+            <li>El Dev Mode traduce el diseño en especificaciones de CSS listas para el desarrollo FrontEnd.</li>
+            <li>Prototipar antes de programar reduce drásticamente el retrabajo en los proyectos de ADSO.</li>
+          </ul>
+        </div>
+        <div class="lang-col lang-en">
+          <span class="lang-tag">🇺🇸 English</span>
+          <ul>
+            <li>UX/UI design is the core of any successful digital product, not a final decorative step.</li>
+            <li>Auto Layout in Figma mirrors CSS Flexbox, enabling responsive interfaces from the design stage.</li>
+            <li>Reusable components guarantee visual consistency and team efficiency.</li>
+            <li>Dev Mode translates design into CSS-ready specs for FrontEnd development.</li>
+            <li>Prototyping before coding drastically reduces rework in ADSO projects.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box hl-blue">
+      <div class="bilingual-block">
+        <div class="lang-col lang-es">
+          <span class="lang-tag">🇨🇴 Español</span>
+          <p>"Colombia 5.0 representa la apuesta del país por posicionarse en la vanguardia de la economía digital latinoamericana, reconociendo que el diseño, la tecnología y la innovación no son disciplinas separadas, sino un ecosistema integrado."</p>
+        </div>
+        <div class="lang-col lang-en">
+          <span class="lang-tag">🇺🇸 English</span>
+          <p>"Colombia 5.0 represents the country's commitment to leading the Latin American digital economy, recognizing that design, technology and innovation are not separate disciplines but a single integrated ecosystem."</p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="subsection-title">Reflexión Personal · Personal Reflection</h4>
+
+    <div class="experience-block">
+      <h4>Mi Experiencia — Colombia 5.0 &amp; Figma</h4>
+      <div class="bilingual-block">
+        <div class="lang-col lang-es">
+          <span class="lang-tag">🇨🇴 Español</span>
+          <p>Asistir a Colombia 5.0 con la conferencia de Andrés Pisso reconfiguró mi forma de entender el desarrollo de software. Siempre vi el diseño de interfaces como una fase secundaria, algo que ocurría "al final". Pero ver cómo un Lead UX Designer estructura su proceso desde la investigación hasta el prototipo en Figma me demostró que el diseño ES el proceso, no un decorado posterior. El sistema de componentes para videojuegos —iconos de salud, escudo, munición— fue el momento en que entendí qué significa realmente un "sistema de diseño".</p>
+          <p>A partir de esta conferencia integré Figma en mi flujo de trabajo para ADSO: diseño wireframes antes de escribir código, uso Auto Layout para simular el comportamiento responsive y prototipo los flujos principales para validar la navegación con usuarios antes de implementar. Esta inversión de tiempo en diseño previo me ha ahorrado horas de refactorización.</p>
+        </div>
+        <div class="lang-col lang-en">
+          <span class="lang-tag">🇺🇸 English</span>
+          <p>Attending Colombia 5.0 with Andrés Pisso's talk reshaped how I understand software development. I always saw interface design as a secondary phase, something that happened "at the end". But watching a Lead UX Designer structure his process from research to prototype in Figma showed me that design IS the process, not a decoration applied afterward. The component system for video games —health, shield and ammo icons— was the moment I truly understood what a "design system" means in practice.</p>
+          <p>Since this conference I've integrated Figma into my ADSO workflow: I design wireframes before writing code, use Auto Layout to simulate responsive behavior, and prototype the main flows to validate navigation with users before implementation. This upfront investment in design has saved me hours of refactoring.</p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="subsection-title">Palabras Clave · Keywords</h4>
+    <div class="keyword-list">
+      <span class="keyword-chip">Figma</span>
+      <span class="keyword-chip">UX/UI</span>
+      <span class="keyword-chip">Auto Layout</span>
+      <span class="keyword-chip">Design Systems</span>
+      <span class="keyword-chip">Prototyping</span>
+      <span class="keyword-chip">Wireframes</span>
+      <span class="keyword-chip">Dev Mode</span>
+      <span class="keyword-chip">Game UI / HUD</span>
+      <span class="keyword-chip">Accesibilidad · Accessibility</span>
+      <span class="keyword-chip">ADSO</span>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="conf2" class="conference-section">
+  <div class="conf-header">
+    <span class="conf-badge badge-2">Conferencia 02 · Conference 02</span>
+    <h2>Createx — Moda e Industria 4.0<br>Fashion &amp; Industry 4.0</h2>
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p class="lead">La convergencia entre la industria textil y la tecnología de vanguardia: inteligencia artificial aplicada al reconocimiento de tendencias, materiales y experiencias de cliente.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p class="lead">The convergence between the textile industry and cutting-edge technology: artificial intelligence applied to trend recognition, materials and customer experience.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-wrapper">
+
+    <h4 class="subsection-title">Tema Principal · Main Topic</h4>
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p>Createx exploró cómo la inteligencia artificial, la visión por computadora, la automatización y la digitalización están transformando la moda de extremo a extremo. El punto más impactante fue la demostración de un sistema de cámara con IA capaz de identificar prendas, colores Pantone, texturas y tendencias en tiempo real, con la participación de marcas como Zeiss, Fujifilm y Pantone.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p>Createx explored how artificial intelligence, computer vision, automation and digitalization are transforming fashion end to end. The most striking moment was the demonstration of an AI-powered camera system capable of identifying garments, Pantone colors, textures and trends in real time, with the participation of brands such as Zeiss, Fujifilm and Pantone.</p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <h4 class="subsection-title">Resumen Detallado · Detailed Summary</h4>
+
+    <div class="resumen-stack">
+      <div class="content-card">
+        <span class="card-icon">🧵</span>
+        <div class="bilingual-block">
+          <div class="lang-col lang-es">
+            <span class="lang-tag">🇨🇴 Español</span>
+            <h4>¿Qué es Createx?</h4>
+            <p>Createx es una feria y plataforma de innovación enfocada en la intersección entre la industria textil, la moda, el diseño y la tecnología: el punto de encuentro donde diseñadores, fabricantes, retailers y tecnólogos exploran las fronteras de lo posible. Su propósito es modernizar una industria de rica tradición artesanal mediante automatización, análisis de datos, comercio electrónico avanzado y procesos sostenibles.</p>
+          </div>
+          <div class="lang-col lang-en">
+            <span class="lang-tag">🇺🇸 English</span>
+            <h4>What is Createx?</h4>
+            <p>Createx is a fair and innovation platform focused on the intersection of textiles, fashion, design and technology: the meeting point where designers, manufacturers, retailers and technologists explore the boundaries of what's possible. Its purpose is to modernize an industry with a rich craft tradition through automation, data analysis, advanced e-commerce and sustainable processes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <span class="card-icon">🤖</span>
+        <div class="bilingual-block">
+          <div class="lang-col lang-es">
+            <span class="lang-tag">🇨🇴 Español</span>
+            <h4>Industria 4.0 aplicada a la moda</h4>
+            <p>La automatización va desde robots de corte y costura de alta precisión hasta sistemas de control de calidad que detectan defectos con mayor precisión que el ojo humano. La digitalización transforma cada etapa de la cadena de valor —diseño, producción, distribución— y los "gemelos digitales" de prendas permiten anticipar cómo lucirá una pieza en distintos cuerpos antes de fabricarla, reduciendo las devoluciones en e-commerce.</p>
+          </div>
+          <div class="lang-col lang-en">
+            <span class="lang-tag">🇺🇸 English</span>
+            <h4>Industry 4.0 Applied to Fashion</h4>
+            <p>Automation ranges from high-precision cutting and sewing robots to quality-control systems that detect fabric defects more accurately than the human eye. Digitalization transforms every stage of the value chain —design, production, distribution— and garment "digital twins" let teams preview how a piece will look on different bodies before it's produced, reducing e-commerce returns.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-card">
+        <span class="card-icon">📷</span>
+        <div class="bilingual-block">
+          <div class="lang-col lang-es">
+            <span class="lang-tag">🇨🇴 Español</span>
+            <h4>Cámara con IA y el lenguaje Pantone</h4>
+            <p>El sistema utiliza redes neuronales convolucionales entrenadas con millones de imágenes para identificar tipo de prenda, silueta, textura y patrón. El reconocimiento de color va más allá del RGB: identifica el código Pantone más cercano, distinguiendo tonos como coral, salmón o naranja, y conecta ese análisis con bases de datos de tendencias actualizadas desde pasarelas y redes sociales.</p>
+          </div>
+          <div class="lang-col lang-en">
+            <span class="lang-tag">🇺🇸 English</span>
+            <h4>AI Camera and the Pantone Language</h4>
+            <p>The system uses convolutional neural networks trained on millions of images to identify garment type, silhouette, texture and pattern. Color recognition goes beyond RGB: it identifies the closest Pantone code, distinguishing shades such as coral, salmon or orange, and links that analysis to trend databases updated from runways and social media.</p>
+          </div>
+        </div>
+        <div class="pantone-row">
+          <div class="pantone-chip">
+            <div class="chip-color" style="background:#0f4c81;"></div>
+            <div class="chip-label">PANTONE<br>19-4052<br>Classic Blue</div>
+          </div>
+          <div class="pantone-chip">
+            <div class="chip-color" style="background:#b55a30;"></div>
+            <div class="chip-label">PANTONE<br>17-1340<br>Living Coral</div>
+          </div>
+          <div class="pantone-chip">
+            <div class="chip-color" style="background:#f5df4d;"></div>
+            <div class="chip-label">PANTONE<br>13-0858<br>Illuminating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <h4 class="subsection-title">Aprendizajes Obtenidos · Learning Outcomes</h4>
+
+    <div class="content-card">
+      <div class="bilingual-block">
+        <div class="lang-col lang-es">
+          <span class="lang-tag">🇨🇴 Español</span>
+          <ul>
+            <li>La moda es una industria profundamente tecnológica que demanda perfiles de desarrollo de software.</li>
+            <li>Las redes neuronales convolucionales permiten reconocer prendas, colores y patrones en tiempo real.</li>
+            <li>El código Pantone es el lenguaje universal del color en producción, impresión y diseño digital.</li>
+            <li>Los gemelos digitales reducen devoluciones y optimizan la cadena de valor en e-commerce de moda.</li>
+            <li>Cada sistema "inteligente" de retail es, en el fondo, software diseñado por equipos como los de ADSO.</li>
+          </ul>
+        </div>
+        <div class="lang-col lang-en">
+          <span class="lang-tag">🇺🇸 English</span>
+          <ul>
+            <li>Fashion is a deeply technological industry that demands software development profiles.</li>
+            <li>Convolutional neural networks enable real-time recognition of garments, colors and patterns.</li>
+            <li>The Pantone code is the universal color language across production, printing and digital design.</li>
+            <li>Digital twins reduce returns and optimize the value chain in fashion e-commerce.</li>
+            <li>Every "smart" retail system is, at its core, software designed by teams like those trained in ADSO.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box hl-orange">
+      <div class="bilingual-block">
+        <div class="lang-col lang-es">
+          <span class="lang-tag">🇨🇴 Español</span>
+          <p>"Createx demuestra que no existe industria que no sea, en alguna medida, una industria de software: cada aplicación de IA que transforma la moda fue construida por un equipo de desarrollo."</p>
+        </div>
+        <div class="lang-col lang-en">
+          <span class="lang-tag">🇺🇸 English</span>
+          <p>"Createx shows that there is no industry that isn't, to some degree, a software industry: every AI application transforming fashion was built by a development team."</p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="subsection-title">Reflexión Personal · Personal Reflection</h4>
+
+    <div class="experience-block">
+      <h4>Mi Experiencia — Createx</h4>
+      <div class="bilingual-block">
+        <div class="lang-col lang-es">
+          <span class="lang-tag">🇨🇴 Español</span>
+          <p>Createx fue la conferencia que más me desafiaba antes de asistir: ¿qué tenía que ver la moda con el desarrollo de software? La respuesta fue reveladora: absolutamente todo. Cada tienda tiene un sistema de inventario, cada marca tiene un e-commerce, cada empresa textil necesita control de calidad y análisis de ventas. La demostración de la cámara con IA fue el momento cumbre: ver en tiempo real cómo un sistema de visión computacional identificaba el tejido, el color Pantone exacto y lo comparaba con tendencias actuales fue ver los algoritmos que estudiamos en abstracto cobrar vida.</p>
+          <p>La relación con ADSO es directa: los catalogadores de prendas, los sistemas de recomendación, las plataformas de diseño colaborativo y los ERPs textiles son software diseñado, desarrollado y mantenido por profesionales con exactamente el perfil que estamos construyendo en nuestro programa.</p>
+        </div>
+        <div class="lang-col lang-en">
+          <span class="lang-tag">🇺🇸 English</span>
+          <p>Createx was the conference I was most skeptical about beforehand: what did fashion have to do with software development? The answer was revealing: absolutely everything. Every store has an inventory system, every brand has an e-commerce platform, every textile company needs quality control and sales analytics. The AI camera demo was the highlight: watching a computer vision system identify the fabric, the exact Pantone color and compare it with current trends in real time felt like seeing the algorithms we study in the abstract come to life.</p>
+          <p>The connection to ADSO is direct: garment catalogers, recommendation systems, collaborative design platforms and textile ERPs are all software designed, built and maintained by professionals with exactly the profile our program is building.</p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="subsection-title">Palabras Clave · Keywords</h4>
+    <div class="keyword-list">
+      <span class="keyword-chip">Createx</span>
+      <span class="keyword-chip">Industria 4.0</span>
+      <span class="keyword-chip">Inteligencia Artificial</span>
+      <span class="keyword-chip">Computer Vision</span>
+      <span class="keyword-chip">Pantone</span>
+      <span class="keyword-chip">Digital Twins</span>
+      <span class="keyword-chip">E-commerce</span>
+      <span class="keyword-chip">Automatización · Automation</span>
+      <span class="keyword-chip">Deep Learning</span>
+      <span class="keyword-chip">ADSO</span>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="evidencia">
+  <div class="section-wrapper">
+    <span class="section-label">Evidencia Audiovisual · Audiovisual Evidence</span>
+    <h2 class="section-title">Registro de la<br><em style="font-style:italic;">Experiencia</em></h2>
+
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <h4>Evidencia de Participación – Colombia 5.0 y Createx</h4>
+        <p>Registro audiovisual que resume la experiencia, los aprendizajes y los aspectos más relevantes observados durante las conferencias Colombia 5.0 y Createx.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <h4>Participation Evidence – Colombia 5.0 and Createx</h4>
+        <p>Audiovisual record summarizing the experience, learning outcomes and the most relevant aspects observed during the Colombia 5.0 and Createx conferences.</p>
+      </div>
+    </div>
+
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/uosfklec6VY"
+        title="Evidencia de Participación — Colombia 5.0 y Createx"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+<section id="glosario">
+  <div class="section-wrapper">
+    <span class="section-label">Vocabulario Técnico · Technical Vocabulary</span>
+    <h2 class="section-title" style="color:var(--white)">Glosario General<br><span style="font-style:italic; font-weight:400; font-size:0.6em; opacity:0.5">30+ Términos Esenciales · 30+ Essential Terms</span></h2>
+    <dl class="glossary-grid">
+      <div class="glossary-item"><dt>UX (User Experience)</dt><dd>Conjunto de experiencias, percepciones y respuestas de un usuario al interactuar con un producto o servicio digital antes, durante y después de su uso.</dd></div>
+      <div class="glossary-item"><dt>UI (User Interface)</dt><dd>Capa visual e interactiva de un producto digital que permite al usuario comunicarse con el sistema mediante elementos gráficos, botones, formularios y navegación.</dd></div>
+      <div class="glossary-item"><dt>Wireframe</dt><dd>Representación esquemática de baja fidelidad de la estructura de una pantalla que define la disposición de elementos sin aplicar estilos visuales definitivos.</dd></div>
+      <div class="glossary-item"><dt>Prototipo</dt><dd>Simulación interactiva de un producto digital que permite probar flujos de usuario y funcionalidades antes de desarrollar el código de producción.</dd></div>
+      <div class="glossary-item"><dt>Auto Layout (Figma)</dt><dd>Función de Figma que permite crear frames que se adaptan automáticamente a su contenido, simulando el comportamiento de Flexbox en CSS para diseños responsive.</dd></div>
+      <div class="glossary-item"><dt>Componente</dt><dd>Elemento de diseño reutilizable en Figma (o en código) que puede instanciarse múltiples veces; cambiar el maestro actualiza todas las instancias automáticamente.</dd></div>
+      <div class="glossary-item"><dt>Design System</dt><dd>Colección de estándares, componentes, patrones y guías documentadas que definen el lenguaje visual y de interacción de un producto o marca digital.</dd></div>
+      <div class="glossary-item"><dt>HUD (Heads-Up Display)</dt><dd>En videojuegos, interfaz superpuesta sobre el ambiente del juego que muestra información vital (salud, munición, mapa) sin interrumpir la acción.</dd></div>
+      <div class="glossary-item"><dt>Accesibilidad Web (a11y)</dt><dd>Conjunto de prácticas y estándares (WCAG) que garantizan que las interfaces digitales sean usables por personas con discapacidades visuales, motoras, auditivas o cognitivas.</dd></div>
+      <div class="glossary-item"><dt>Usabilidad</dt><dd>Medida de la facilidad y eficiencia con que un usuario específico puede lograr objetivos específicos en un sistema, evaluada mediante métricas de eficiencia, eficacia y satisfacción.</dd></div>
+      <div class="glossary-item"><dt>HTML (HyperText Markup Language)</dt><dd>Lenguaje de marcado estándar para crear páginas web; define la estructura semántica del contenido mediante etiquetas que organizan texto, imágenes, formularios y multimedia.</dd></div>
+      <div class="glossary-item"><dt>CSS (Cascading Style Sheets)</dt><dd>Lenguaje de hojas de estilo que describe la presentación visual de documentos HTML; controla colores, tipografías, espaciados, layouts y animaciones.</dd></div>
+      <div class="glossary-item"><dt>JavaScript</dt><dd>Lenguaje de programación interpretado que añade interactividad y comportamiento dinámico a las páginas web; corre en el navegador y en servidores mediante Node.js.</dd></div>
+      <div class="glossary-item"><dt>Responsive Design</dt><dd>Enfoque de diseño web que hace que las interfaces se adapten automáticamente a distintos tamaños de pantalla (móvil, tablet, desktop) mediante CSS Flexbox, Grid y Media Queries.</dd></div>
+      <div class="glossary-item"><dt>Flexbox</dt><dd>Módulo de CSS que permite crear layouts unidimensionales (fila o columna) con control preciso sobre la alineación, distribución y orden de los elementos hijos.</dd></div>
+      <div class="glossary-item"><dt>CSS Grid</dt><dd>Sistema de layout bidimensional de CSS que permite organizar elementos en filas y columnas simultáneamente, ideal para estructuras complejas de páginas.</dd></div>
+      <div class="glossary-item"><dt>API (Application Programming Interface)</dt><dd>Interfaz que define cómo dos sistemas de software se comunican entre sí; permite que una aplicación acceda a funcionalidades o datos de otra de forma estandarizada.</dd></div>
+      <div class="glossary-item"><dt>REST API</dt><dd>Estilo arquitectónico de APIs basado en los principios HTTP (GET, POST, PUT, DELETE) que permite la comunicación stateless entre cliente y servidor mediante JSON o XML.</dd></div>
+      <div class="glossary-item"><dt>Git</dt><dd>Sistema de control de versiones distribuido que registra los cambios en el código fuente a lo largo del tiempo, facilitando el trabajo colaborativo y la recuperación de versiones anteriores.</dd></div>
+      <div class="glossary-item"><dt>Inteligencia Artificial (IA)</dt><dd>Rama de la informática que desarrolla sistemas capaces de realizar tareas que normalmente requieren inteligencia humana: reconocimiento de patrones, toma de decisiones, comprensión del lenguaje natural.</dd></div>
+      <div class="glossary-item"><dt>Machine Learning (ML)</dt><dd>Subcampo de la IA donde los sistemas aprenden automáticamente a partir de datos sin ser explícitamente programados, mejorando su rendimiento con la experiencia acumulada.</dd></div>
+      <div class="glossary-item"><dt>Deep Learning</dt><dd>Técnica de ML que utiliza redes neuronales artificiales de múltiples capas para aprender representaciones jerárquicas de los datos; base de los sistemas modernos de visión por computadora.</dd></div>
+      <div class="glossary-item"><dt>Computer Vision</dt><dd>Campo de la IA que entrena a los computadores para interpretar y comprender información visual del mundo, habilitando aplicaciones como reconocimiento de objetos y análisis de imágenes.</dd></div>
+      <div class="glossary-item"><dt>Pantone</dt><dd>Sistema universal de codificación cromática creado en 1963 que asigna un número único a cada color para garantizar su reproducción fiel en cualquier material, industria o región del mundo.</dd></div>
+      <div class="glossary-item"><dt>E-commerce</dt><dd>Compraventa de productos y servicios a través de plataformas y canales digitales; incluye tiendas en línea, marketplaces, aplicaciones móviles de compra y sistemas de pago electrónico.</dd></div>
+      <div class="glossary-item"><dt>Industria 4.0</dt><dd>Cuarta revolución industrial caracterizada por la digitalización, automatización, IoT, big data e inteligencia artificial aplicados a procesos productivos para crear "fábricas inteligentes".</dd></div>
+      <div class="glossary-item"><dt>Transformación Digital</dt><dd>Proceso de integración de tecnología digital en todas las áreas de una organización para cambiar fundamentalmente cómo opera y entrega valor, afectando cultura, procesos y modelos de negocio.</dd></div>
+      <div class="glossary-item"><dt>ADSO</dt><dd>Análisis y Desarrollo de Software Orientado. Programa de formación tecnológica del SENA que forma técnicos en construcción de soluciones de software aplicando metodologías ágiles y tecnologías actuales.</dd></div>
+      <div class="glossary-item"><dt>Framework</dt><dd>Entorno de trabajo predefinido que proporciona estructura, bibliotecas y convenciones para desarrollar aplicaciones de forma más rápida y estandarizada (Bootstrap, React, Vue, Django).</dd></div>
+      <div class="glossary-item"><dt>Token de Diseño</dt><dd>Variable nombrada que almacena un valor de diseño (color, espaciado, tipografía) y puede ser utilizada consistentemente en código y herramientas de diseño para mantener sincronía entre diseño y desarrollo.</dd></div>
+      <div class="glossary-item"><dt>Mockup</dt><dd>Representación de alta fidelidad del diseño final de una interfaz digital que incluye todos los elementos visuales definitivos (colores, tipografías, imágenes) pero sin interactividad funcional.</dd></div>
+      <div class="glossary-item"><dt>Branding</dt><dd>Proceso estratégico de construcción y gestión de la identidad de una marca, incluyendo su nombre, logotipo, colores, tipografía, tono de voz y todos los elementos que la hacen reconocible y diferenciable.</dd></div>
+    </dl>
+  </div>
+</section>
+
+
+<section id="reflexion-final">
+  <span class="section-label">Reflexión Final · Final Reflection</span>
+  <h2 class="section-title">Convergencia de<br><em style="font-style:italic;">Saberes</em></h2>
+  <div class="reflection-content">
+
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p>Dos conferencias, dos mundos aparentemente distintos —el diseño digital y la industria textil— que al final revelan ser manifestaciones de una misma transformación: la digitalización profunda de todas las dimensiones de la experiencia humana. Esta convergencia es exactamente el territorio donde un profesional de ADSO debe aprender a habitar.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p>Two conferences, two seemingly different worlds —digital design and the textile industry— that ultimately reveal themselves as manifestations of the same transformation: the deep digitalization of every dimension of human experience. This convergence is exactly the territory an ADSO professional must learn to inhabit.</p>
+      </div>
+    </div>
+
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p>Colombia 5.0, con la conferencia de Andrés Pisso, me enseñó que el diseño de software no es un proceso técnico aséptico; es un acto de empatía profunda con el usuario. Figma no es solo una herramienta de dibujo: es un lenguaje de comunicación entre quien construye y quien usará lo construido. Aplicar UX/UI desde el inicio de cualquier proyecto de ADSO es una decisión técnica que determina la viabilidad del producto final.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p>Colombia 5.0, through Andrés Pisso's talk, taught me that software design is not an aseptic technical process; it's an act of deep empathy with the user. Figma is not just a drawing tool: it's a language of communication between the person who builds and the person who will use what is built. Applying UX/UI from the start of any ADSO project is a technical decision that determines the viability of the final product.</p>
+      </div>
+    </div>
+
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p>Createx me abrió los ojos a una verdad fundamental: no existe industria que no sea, en alguna medida, una industria de software. La moda, un sector de profunda tradición artesanal, está siendo transformada por inteligencia artificial, computer vision y comercio electrónico. Cada aplicación de IA que vi en Createx fue construida por un equipo de desarrollo de software con exactamente las competencias que estamos formando en ADSO.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p>Createx opened my eyes to a fundamental truth: there is no industry that isn't, to some degree, a software industry. Fashion, a sector with a deep craft tradition, is being transformed by artificial intelligence, computer vision and e-commerce. Every AI application I saw at Createx was built by a software development team with exactly the skills we're developing in ADSO.</p>
+      </div>
+    </div>
+
+    <div class="bilingual-block">
+      <div class="lang-col lang-es">
+        <span class="lang-tag">🇨🇴 Español</span>
+        <p>La reflexión final es esta: la transformación digital que vivimos no es solo tecnológica; es cultural, estética y social. Cada proyecto que desarrollamos es una intervención en el tejido de la sociedad, y cada interfaz que diseñamos modela la experiencia de alguien. Esa responsabilidad requiere conocimiento técnico, conciencia de diseño y compromiso ético permanente.</p>
+      </div>
+      <div class="lang-col lang-en">
+        <span class="lang-tag">🇺🇸 English</span>
+        <p>The final reflection is this: the digital transformation we're living through is not only technological; it's cultural, aesthetic and social. Every project we develop is an intervention in the fabric of society, and every interface we design shapes someone's experience. That responsibility requires technical knowledge, design awareness and lasting ethical commitment.</p>
+      </div>
+    </div>
+
+    <div class="final-tags">
+      <span class="final-tag">ADSO</span>
+      <span class="final-tag">Desarrollo de Software</span>
+      <span class="final-tag">Software Development</span>
+      <span class="final-tag">Figma</span>
+      <span class="final-tag">UX/UI</span>
+      <span class="final-tag">Inteligencia Artificial</span>
+      <span class="final-tag">Pantone</span>
+      <span class="final-tag">Industria 4.0</span>
+      <span class="final-tag">Innovación · Innovation</span>
+      <span class="final-tag">Transformación Digital</span>
+      <span class="final-tag">Colombia 5.0</span>
+      <span class="final-tag">Createx</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Portafolio Académico · ADSO 2026 · SENA Colombia &nbsp;·&nbsp; Conferencias: Colombia 5.0 &amp; Createx
+  <span class="footer-en">Academic Portfolio · ADSO 2026 · SENA Colombia · Conferences: Colombia 5.0 &amp; Createx</span>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
